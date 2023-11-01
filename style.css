@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.manu-bar
+{
+    background-color: grey;
+    text-align: center;
+}
+.manu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+
+.manu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.manu-bar ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.active,.manu-bar ul li:hover
+{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.manu-bar .fa
+{
+    margin-right: 9px;
+}
+
+.sub-menu-1
+{
+    display: none;
+}
+
+.manu-bar ul li:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.manu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+}
+
